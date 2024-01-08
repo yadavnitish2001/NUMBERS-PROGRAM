@@ -1,0 +1,13 @@
+What is logic of factorial number?
+Factorial of n is the product of all positive descending integers. Factorial of n is denoted by n!.
+For example:
+4! = 4*3*2*1 = 24  
+5! = 5*4*3*2*1 = 120  
+
+The logic of factorial number:-
+Read or initialize number.
+initialize and declare fac=1;
+using for loop,Run a loop for n from i to max of n.
+multiply the numbers with fac and stored in factorial(fac=fac*n) and then decrease the  number(n--)
+Run the for  loop till the  number is greater.
+If the condition become false and print the factorial.

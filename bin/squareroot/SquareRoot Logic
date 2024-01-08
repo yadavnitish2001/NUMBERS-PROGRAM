@@ -1,0 +1,5 @@
+The logic of print Square root of  number from 1-n:-
+Read or initialize the number
+Taking another variable result for store SquareRoot of a number and declare result as double
+using Math.sqrt(n) function for find the Square root of a number
+Then, print the results

@@ -1,0 +1,10 @@
+Read or initialize Number.
+Take another variable (sum) to store the addition of a number and initialize it to 0,declare rem and initialize temp=1.
+for using do while loop and it begins and runs till condition become false
+if(temp==0)
+temp=sum;
+and gain initialize (sum=0);
+sum=sum+rem:Taking out the last digit and adding it in sum
+n=n/10:Removing the last digit
+using while loop and compare(temp>0 || sum>9),if it true then;
+Print the sum of digits of number until single digits

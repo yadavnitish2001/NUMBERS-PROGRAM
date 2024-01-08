@@ -1,0 +1,13 @@
+The logic of print Prime numbers from 1-n are:
+A prime number is a number that is divisible by only two numbers: 1 and itself. 
+So, if any number is divisible by any other number, it is not a prime number.
+
+The logic are:
+Read or initialize the number
+Using the for loop and initialize i=2 to i<=n
+Take another variable (count) to count the number and initialize it to 0.
+Using the  another for loop and initialize j=2 to i<=n
+Inside the loop check 'if'condition ,weather the i is divisible by j or not
+if i is divisible by j and gives remainder 0 then increase the count value
+Repeat the above step until the condition is false.
+if the condition become false then print the prime numbers

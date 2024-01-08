@@ -1,0 +1,11 @@
+What is the logic of largest and smallest digit in number?
+The largest digit in a number.for eg:- 567,in this number 7 is the largest digit and 5 is the smallest digit in anumber
+The logic is:
+ 
+Read or initialize number.
+initialize largest =0 and smallest =0 and declare the remainder
+Now, make a while loop till the  number is greater than zero.
+In every loop get the last digit of the number.(rem= n% 10)
+we are using built type functions to find a largest and smallest digit in a number(largest=Math.max(largest,rem);smallest=Math.min(rem,smallest);)
+and then, divide the original number by 10(n=n/10) for removes the last digits
+Print the smallest and largest digit in a number.

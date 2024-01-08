@@ -1,0 +1,14 @@
+What is logic of  fibonacci series?
+In fibonacci series, next number is the sum of previous two numbers 
+for example 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 etc. The first two numbers of fibonacci series are 0 and 1.
+
+The logic are:
+Read or initialize number.
+initialize and declare x=0 ,y=1 and z=0;
+using for loop,Run a loop for n1  from i to max of n and iterative a loop until the condition become false
+The the print the value o loop x
+The next terms in the Fibonacci series would be calculated as:
+z=x+y;
+x=y;
+y=z;
+Loop runs until the condition become false

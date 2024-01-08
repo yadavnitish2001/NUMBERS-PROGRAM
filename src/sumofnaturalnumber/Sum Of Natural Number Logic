@@ -1,0 +1,8 @@
+he logic of print Sum of natural number is:
+For example:1 2 3 4=1+2+3+4,The sum of number is 10
+
+Read or initialize Number.
+Take another variable (sum) to store the addition of a number and initialize it to 0.
+for using 'for'loop and it begins and runs till value is i<=n
+sum=(sum+i*i):Taking the i value and adding it in sum
+Print the sum  of  square of  number

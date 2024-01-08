@@ -1,0 +1,13 @@
+What is logic of frequancy?
+frequancy means counts the number of digits in a number
+for eg:-12234,if you select 2 then 2 present 2 times
+
+The logic are:
+Read or initialize number and digits.
+Declare and initialize temp=n,rem,and count=0;
+using while loop execute until the condition becomes false ((temp>0))
+determines the last digit from the number(rem=temp%10);
+using another condition 'if' and compare rem==m or not ,if condition true then increase the count variable{(rem==m) count++};
+Remove last digits(temp=temp/10);
+Repeat the above step  until the condition becomes false.
+Then print the results

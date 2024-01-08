@@ -1,0 +1,10 @@
+The logic of print product of odd number from 1-n:-
+A number that is not divisible by 2 and not generates a remainder of 0 is called an odd number.
+Take the user input as a n number and initialize the number
+create the loop from integer i=1 to i<=n
+Inside the loop check weather the number is divisible by 2 or not
+Check condition:(i%2!=0) to check weather number is  not divisible by 2 
+Take another variable (product) to store the product of a number and initialize it to 1.
+Taking out the i and product it in product variable(product=product*i);
+keep doing until the condition is false
+if condition is false,Then exit from loop and print the product of odd number

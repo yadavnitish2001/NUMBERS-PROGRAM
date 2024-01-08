@@ -1,0 +1,12 @@
+What is the logic of palindrome?
+The logic of a palindrome is simple, wherein if we take a number and reverse it, it still stays the same as the original number.
+ For example, 10101 is a palindrome number as it is going to stay the same even if we reverse it.
+ The logic is:
+ 
+Read or initialize number.
+First, Declare a variable reverse and initialize it with 0.
+Now, make a while loop till the original number is greater than zero.
+In every loop get the last digit of the number and add that digit at the end of the reverse and then, divide the original number by 10.
+reverseNum = reverseNum * 10 + (number % 10)
+Lastly, check if the original number and reverse number are equal or not.
+Then print the reverse number

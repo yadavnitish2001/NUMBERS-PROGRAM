@@ -1,0 +1,17 @@
+What is logic of  Greatest Common Divisor(gcd):
+It is the highest number that completely divides two or more numbers. 
+Example: Find the GCF of 12 and 8.
+Solution:
+Factors of 12: 1, 2, 3, 4, 6, 12
+Factors of 8: 1, 2, 4, 8
+Common Factors: 1, 2, 4
+Greatest Common Factor: 4
+Hence, the GCF of 12 and 8 is 4.
+\
+The logic are:
+Declare two variables, say n1 and n2.
+Initialize variable gcd=1;
+using for loop,Run a loop for n1 and n2 from i to max of n1 and n2.
+Check that the number divides both (n1 and n2) numbers completely or not. If divides completely storing the variable i in the variable gcd  
+check the condition, until the condition become false
+if condition become false,Then print the value of gcd

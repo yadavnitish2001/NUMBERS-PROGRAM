@@ -1,0 +1,8 @@
+The logic of print even number from 1-n:-
+A number that is divisible by 2 and generates a remainder of 0 is called an even number.
+Take the user input as a n number
+create the loop from integer i=1 to i<=n
+Inside the loop check weather the number is divisible by 2 or not
+Check condition:(i%2==0) to check weather number is divisible by 2 and generates a remainder of 0 is called an even number.
+keep doing until the condition is false
+if condition is false,Then exit from loop and print the even number

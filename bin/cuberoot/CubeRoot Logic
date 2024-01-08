@@ -1,0 +1,5 @@
+The logic of print cube root of  number from 1-n:-
+Read or initialize the number
+Taking another variable result for store cubeRoot of a number and declare result as double
+using Math.cbrt(n) function for find the cube root of a number
+Then, print the results

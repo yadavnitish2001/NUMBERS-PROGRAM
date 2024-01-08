@@ -1,0 +1,9 @@
+The logic of print Sum of digits any number is:
+For example:123=1+2+3,The sum of digits is 6
+
+Read or initialize Number.
+Take another variable (sum) to store the addition of a number and initialize it to 0.
+for using while loop and it begins and runs till value is n >=0
+sum=sum+n%10:Taking out the last digit and adding it in sum
+n=n/10:Removing the last digit
+Print the sum of digits of number
